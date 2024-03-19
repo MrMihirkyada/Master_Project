@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:text="Are you sure you want to Logout"
+        android:textAlignment="center"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/okay_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okay"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:textColor="#3F51B5"
+            android:textSize="@dimen/_15ssp" />
+
+        <TextView
+            android:id="@+id/cancel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/okay_text"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:textSize="@dimen/_15ssp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
